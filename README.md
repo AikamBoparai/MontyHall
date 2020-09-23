@@ -18,4 +18,4 @@ We will run this experiment in a loop thus, at index 10 we will run this experim
 ![Small Number of trials](https://github.com/AikamBoparai/MontyHall/blob/master/images/smallNumTrials.png)
 
 ## Large number of trials
-![Small Number of trials](https://github.com/AikamBoparai/MontyHall/blob/master/images/largeNumTrials.png)
+![Large Number of trials](https://github.com/AikamBoparai/MontyHall/blob/master/images/highNumTrials.png)
