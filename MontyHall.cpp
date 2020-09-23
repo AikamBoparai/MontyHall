@@ -7,25 +7,29 @@
 
 using namespace std;
 
+enum prize{car, goat};
+
 void switchSimulation(int numTrials){
     int counter = 0;
     
     srand(time(NULL));
     double correctSwitch = 0;
     while(counter < numTrials){
-    int* doors = new int[3];
+    prize* doors = new prize[3];
     int golden = rand() % 3; //generate a random number from 0 to 2
+
+    //Setup the doors
     for(int j = 0; j < 3; j++){
         if(j == golden){
-            doors[j] = 100;
+            doors[j] = car;
         }
         else{
-            doors[j] = 0;
+            doors[j] = goat;
         }
     }
         int userChoice = rand() % 3;
 
-        if(doors[userChoice] == 100){
+        if(doors[userChoice] == car){
             counter++;
             continue;
         }
