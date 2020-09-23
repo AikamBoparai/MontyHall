@@ -13,3 +13,9 @@ In this short project I try to mimic the Monty Hall scenario by having a random 
 The program will check if the user's choice (second number generated) points to the car with a 33.3% chance. If it doesn't, we know then that doors should've been switched since we now know the car is in one of the other 2 doors. Also we know that one of these doors gets eliminated by the host.
 
 We will run this experiment in a loop thus, at index 10 we will run this experiment 10 times and check how many times switching worked. At index 1000 we will run this simulation 1000 times and check how many times switching worked. What you'll notice is that the success rate of switching is approaching and stabilizing at 66.6% with the more trials we run.
+
+## Small number of trials
+![Small Number of trials](https://github.com/AikamBoparai/MontyHall/blob/master/images/smallNumTrials.png)
+
+## Large number of trials
+![Small Number of trials](https://github.com/AikamBoparai/MontyHall/blob/master/images/largeNumTrials.png)
